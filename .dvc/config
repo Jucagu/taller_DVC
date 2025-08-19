@@ -1,4 +1,6 @@
 [core]
-    remote = fuentelocal
+    remote = aws-remote
 ['remote "fuentelocal"']
     url = /tmp/dvcstore
+['remote "aws-remote"']
+    url = s3://taller-dvcstore-1755572800/dvcstore
